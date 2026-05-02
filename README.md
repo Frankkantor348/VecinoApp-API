@@ -117,7 +117,7 @@ DELETE	/api/promociones/{id}	Eliminar promoción
 Email	Contraseña	Rol
 test@vecinoapp.com	Abc123	Usuario normal
 admin@vecinoapp.com	Admin123	Administrador
-🧪 Probar la API con Swagger
+🧪 Probar la API con Postman
 
     Ejecuta la API con dotnet run
 
