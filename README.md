@@ -1,10 +1,10 @@
-# 🏪 VeciNoApp - Backend API
+# 🏪 VecinoApp - Backend API
 
 API RESTful en .NET 8 para la aplicación VeciNoApp, que permite gestionar negocios, reseñas, favoritos, productos y promociones.
 
 ## 📱 Repositorio Frontend
 
-- **Frontend Flutter:** [VeciNoApp](https://github.com/Frankkantor348/VecinoApp)
+- **Frontend Flutter:** [VecinoApp](https://github.com/Frankkantor348/VecinoApp)
 
 ## 🛠️ Tecnologías utilizadas
 
