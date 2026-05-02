@@ -59,7 +59,7 @@ La API estará disponible en:
 
     HTTPS: https://localhost:7128
 
-    Swagger: http://localhost:5067/swagger
+    
 
 🔐 Autenticación
 
@@ -148,7 +148,7 @@ dotnet run --urls http://localhost:5068
 Google Sign-In no está disponible en esta versión. La autenticación se realiza mediante email y contraseña.
 📞 Contacto
 
-Desarrollador: Frank Kantor
+Desarrollador: Frank Cantor Dilan Jimenex
 GitHub: Frankkantor348
 📄 Licencia
 
