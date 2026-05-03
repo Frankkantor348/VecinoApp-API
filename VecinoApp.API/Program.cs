@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
 using VecinoApp.Domain.Entities;
 using VecinoApp.Domain.Interfaces;
@@ -41,6 +42,55 @@ if (!Directory.Exists(uploadsPath))
 // Add services to the container.
 // ============================================================
 builder.Services.AddControllers();
+
+// ============================================================
+// CONFIGURAR SWAGGER (NUEVO)
+// ============================================================
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "VecinoApp API",
+        Version = "v1",
+        Description = "API para la aplicación VecinoApp - Descubre negocios cercanos",
+        Contact = new OpenApiContact
+        {
+            Name = "Frank Kantor",
+            Email = "fgutie16@estudiante.ibero.edu.co", 
+            Url = new Uri("https://github.com/Frankkantor348")
+        }
+    });
+
+    // Configurar autenticación JWT en Swagger
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Ingresa el token JWT con el formato: Bearer {token}"
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
+// ============================================================
+// FIN SWAGGER
+// ============================================================
 
 // Configurar DbContext
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
@@ -142,6 +192,24 @@ using (var scope = app.Services.CreateScope())
 
 // ============================================================
 // PIPELINE DE LA APLICACIÓN (el orden es importante)
+// ============================================================
+
+// ============================================================
+// AGREGAR SWAGGER MIDDLEWARE (NUEVO)
+// ============================================================
+// Habilitar Swagger (solo en desarrollo, pero puedes cambiarlo)
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "VeciNoApp API v1");
+        c.RoutePrefix = "swagger";
+        c.DocumentTitle = "VeciNoApp API Documentation";
+    });
+}
+// ============================================================
+// FIN SWAGGER MIDDLEWARE
 // ============================================================
 
 // Servir archivos estáticos (IMPORTANTE para las imágenes)
