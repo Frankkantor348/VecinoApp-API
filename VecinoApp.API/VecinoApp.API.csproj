@@ -8,6 +8,193 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\EFCoreSqlServerNetTopologySuite.cs" />
+    <Compile Include="obj\Debug\net8.0\VecinoApp.API.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\VecinoApp.API.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0\VecinoApp.API.MvcApplicationPartsAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net8.0\appsettings.json" />
+    <Content Include="bin\Debug\net8.0\VecinoApp.API.deps.json" />
+    <Content Include="bin\Debug\net8.0\VecinoApp.API.runtimeconfig.json" />
+    <Content Include="bin\Debug\net8.0\VecinoApp.API.staticwebassets.endpoints.json" />
+    <Content Include="bin\Debug\net8.0\VecinoApp.API.staticwebassets.runtime.json" />
+    <Content Include="obj\Debug\net8.0\ApiEndpoints.json" />
+    <Content Include="obj\Debug\net8.0\EndpointInfo\VecinoApp.API.json" />
+    <Content Include="obj\Debug\net8.0\rjimswa.dswa.cache.json" />
+    <Content Include="obj\Debug\net8.0\rjsmcshtml.dswa.cache.json" />
+    <Content Include="obj\Debug\net8.0\rjsmrazor.dswa.cache.json" />
+    <Content Include="obj\Debug\net8.0\rpswa.dswa.cache.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.endpoints.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.development.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.references.upToDateCheck.txt" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.removed.txt" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.upToDateCheck.txt" />
+    <Content Include="obj\Debug\net8.0\VecinoApp.API.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0\VecinoApp.API.sourcelink.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\VecinoApp.API.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\Azure.Core.dll" />
+    <None Include="bin\Debug\net8.0\Azure.Identity.dll" />
+    <None Include="bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\Google.Apis.Auth.dll" />
+    <None Include="bin\Debug\net8.0\Google.Apis.Core.dll" />
+    <None Include="bin\Debug\net8.0\Google.Apis.dll" />
+    <None Include="bin\Debug\net8.0\Humanizer.dll" />
+    <None Include="bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.CodeAnalysis.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.Identity.Client.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.SqlServer.Server.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\net8.0\Mono.TextTemplating.dll" />
+    <None Include="bin\Debug\net8.0\NetTopologySuite.dll" />
+    <None Include="bin\Debug\net8.0\NetTopologySuite.IO.SqlServerBytes.dll" />
+    <None Include="bin\Debug\net8.0\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll" />
+    <None Include="bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\SixLabors.ImageSharp.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Debug\net8.0\System.CodeDom.dll" />
+    <None Include="bin\Debug\net8.0\System.Composition.AttributedModel.dll" />
+    <None Include="bin\Debug\net8.0\System.Composition.Convention.dll" />
+    <None Include="bin\Debug\net8.0\System.Composition.Hosting.dll" />
+    <None Include="bin\Debug\net8.0\System.Composition.Runtime.dll" />
+    <None Include="bin\Debug\net8.0\System.Composition.TypedParts.dll" />
+    <None Include="bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll" />
+    <None Include="bin\Debug\net8.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll" />
+    <None Include="bin\Debug\net8.0\System.Management.dll" />
+    <None Include="bin\Debug\net8.0\System.Memory.Data.dll" />
+    <None Include="bin\Debug\net8.0\System.Runtime.Caching.dll" />
+    <None Include="bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Debug\net8.0\System.Security.Permissions.dll" />
+    <None Include="bin\Debug\net8.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\VecinoApp.API.dll" />
+    <None Include="bin\Debug\net8.0\VecinoApp.API.exe" />
+    <None Include="bin\Debug\net8.0\VecinoApp.API.pdb" />
+    <None Include="bin\Debug\net8.0\VecinoApp.Application.dll" />
+    <None Include="bin\Debug\net8.0\VecinoApp.Application.pdb" />
+    <None Include="bin\Debug\net8.0\VecinoApp.Domain.dll" />
+    <None Include="bin\Debug\net8.0\VecinoApp.Domain.pdb" />
+    <None Include="bin\Debug\net8.0\VecinoApp.Infrastructure.dll" />
+    <None Include="bin\Debug\net8.0\VecinoApp.Infrastructure.pdb" />
+    <None Include="bin\Debug\net8.0\VecinoApp.Persistence.dll" />
+    <None Include="bin\Debug\net8.0\VecinoApp.Persistence.pdb" />
+    <None Include="bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll" />
+    <None Include="bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" />
+    <None Include="bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll" />
+    <None Include="bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll" />
+    <None Include="obj\Debug\net8.0\apphost.exe" />
+    <None Include="obj\Debug\net8.0\EndpointInfo\VecinoApp.API.OpenApiFiles.cache" />
+    <None Include="obj\Debug\net8.0\refint\VecinoApp.API.dll" />
+    <None Include="obj\Debug\net8.0\ref\VecinoApp.API.dll" />
+    <None Include="obj\Debug\net8.0\staticwebassets.build.json.cache" />
+    <None Include="obj\Debug\net8.0\swae.build.ex.cache" />
+    <None Include="obj\Debug\net8.0\VecinoAp.62AB6B7B.Up2Date" />
+    <None Include="obj\Debug\net8.0\VecinoApp.API.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\VecinoApp.API.assets.cache" />
+    <None Include="obj\Debug\net8.0\VecinoApp.API.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\VecinoApp.API.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net8.0\VecinoApp.API.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\VecinoApp.API.dll" />
+    <None Include="obj\Debug\net8.0\VecinoApp.API.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\VecinoApp.API.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0\VecinoApp.API.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net8.0\VecinoApp.API.pdb" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\VecinoApp.API.csproj.nuget.g.props" />
+    <None Include="obj\VecinoApp.API.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Google.Apis.Auth" Version="1.73.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
@@ -26,6 +213,10 @@
   <ItemGroup>
     <ProjectReference Include="..\VecinoApp.Application\VecinoApp.Application.csproj" />
     <ProjectReference Include="..\VecinoApp.Infrastructure\VecinoApp.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\Debug\net8.0\staticwebassets\" />
   </ItemGroup>
 
 </Project>
