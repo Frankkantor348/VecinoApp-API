@@ -8,6 +8,7 @@ API RESTful en .NET 8 para la aplicación VeciNoApp, que permite gestionar negoc
 |-------------|--------|
 | **Frontend Flutter** | [VecinoApp](https://github.com/Frankkantor348/VecinoApp) |
 | **Backend API** | [VecinoApp-API](https://github.com/Frankkantor348/VecinoApp-API) |
+| **Swagger** | [Swagger-API](http://localhost:5067/swagger) |
 
 ## 🛠️ Tecnologías utilizadas
 
